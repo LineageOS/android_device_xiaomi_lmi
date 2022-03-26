@@ -182,7 +182,6 @@ vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libst_soft_isp_calc_exposure_shared.so
 vendor/lib64/libst_soft_isp_shared.so
 vendor/lib64/libswregistrationalgo.so
-vendor/lib64/libswvdec.so
 vendor/lib64/libsymphony-cpu.so
 vendor/lib64/libsynx.so
 vendor/lib64/libthreadutils.so
