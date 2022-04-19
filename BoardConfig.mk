@@ -19,6 +19,8 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_lmi
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_lmi
 
 # Kernel
+BOARD_BOOT_HEADER_VERSION := 2
+BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_CONFIG := vendor/lmi_defconfig
 
 # OTA assert
