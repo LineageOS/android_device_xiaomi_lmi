@@ -40,5 +40,9 @@ BOARD_QTI_DYNAMIC_PARTITIONS_SIZE := 9122611200 # ( BOARD_SUPER_PARTITION_SIZE -
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+BOARD_INCLUDE_RECOVERY_DTBO := true
+
 # Inherit from the proprietary version
 include vendor/xiaomi/lmi/BoardConfigVendor.mk
