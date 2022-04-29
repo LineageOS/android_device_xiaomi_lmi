@@ -1,4 +1,4 @@
-# Unpinned blobs from lmi-user 11 RKQ1.200826.002 V12.5.6.0.RJKMIXM release-keys
+# Unpinned blobs from lmi-user 12 RKQ1.211001.001 V13.0.1.0.SJKMIXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -30,6 +30,8 @@ vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
 vendor/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so
 vendor/lib/rfsa/adsp/libmobilenet_dsp.so
 vendor/lib/rfsa/adsp/libremosaichvx_skel.so
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
+vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so
 vendor/lib/rfsa/adsp/libsnpe_dsp_skel.so
 vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
@@ -122,6 +124,7 @@ vendor/lib64/libSuperSensorCPU.so
 vendor/lib64/libalAILDC.so
 vendor/lib64/libalLDC.so
 vendor/lib64/libalhLDC.so
+vendor/lib64/libarcdualcamsat.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libcamera_dirty.so
 vendor/lib64/libcamera_nn_stub.so
@@ -149,6 +152,7 @@ vendor/lib64/libmialgo_rfs.so
 vendor/lib64/libmialgo_sd.so
 vendor/lib64/libmialgo_utils.so
 vendor/lib64/libmialgo_video_colourkeeping.so
+vendor/lib64/libmialgo_video_enhance.so
 vendor/lib64/libmialgo_video_seg.so
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libmibokeh_845_video.so
@@ -410,6 +414,7 @@ vendor/etc/sensors/config/sns_ccd_v2_walk.json
 vendor/etc/sensors/config/sns_ccd_v3_walk.json
 vendor/etc/sensors/config/sns_cm.json
 vendor/etc/sensors/config/sns_dae.json
+vendor/etc/sensors/config/sns_dbtap.json
 vendor/etc/sensors/config/sns_device_orient.json
 vendor/etc/sensors/config/sns_diag_filter.json
 vendor/etc/sensors/config/sns_dpc.json
@@ -419,6 +424,7 @@ vendor/etc/sensors/config/sns_gyro_cal.json
 vendor/etc/sensors/config/sns_mag_cal.json
 vendor/etc/sensors/config/sns_mag_cal_legacy.json
 vendor/etc/sensors/config/sns_nonui.json
+vendor/etc/sensors/config/sns_oem13.json
 vendor/etc/sensors/config/sns_pedometer.json
 vendor/etc/sensors/config/sns_rmd.json
 vendor/etc/sensors/config/sns_rotv.json
@@ -432,6 +438,7 @@ vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/config/tsl2560_back.json
 vendor/etc/sensors/config/tsl2560_dup.json
 vendor/etc/sensors/config/tsl2560_pol.json
+vendor/etc/sensors/sensor_diag.cfg
 vendor/etc/sensors/sns_reg_config
 vendor/etc/elliptic_sensor.xml
 
@@ -439,10 +446,14 @@ vendor/etc/elliptic_sensor.xml
 vendor/etc/thermal-arvr.conf
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-chg-only.conf
+vendor/etc/thermal-class0.conf
 vendor/etc/thermal-engine.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermal-nolimits.conf
 vendor/etc/thermal-normal.conf
+vendor/etc/thermal-per-camera.conf
+vendor/etc/thermal-per-class0.conf
+vendor/etc/thermal-per-normal.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermald-devices.conf
