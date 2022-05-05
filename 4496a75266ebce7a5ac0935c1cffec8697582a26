@@ -22,6 +22,30 @@
       },
       "revId": "4496a75266ebce7a5ac0935c1cffec8697582a26",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cfb98e5a_1ada2118",
+        "filename": "vendor.prop",
+        "patchSetId": 3
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-05-05T17:29:39Z",
+      "side": 1,
+      "message": "I see, it will be a leftover after you switch to common HIDL service. Don\u0027t forget to remove it later on.",
+      "parentUuid": "8abb1069_3dc15283",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 30
+      },
+      "revId": "4496a75266ebce7a5ac0935c1cffec8697582a26",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
