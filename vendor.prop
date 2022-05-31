@@ -30,6 +30,3 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 
 # Fingerprint
 vendor.lineage.fod.enable=true
-
-# Motor
-vendor.lineage.motor.enable=true
