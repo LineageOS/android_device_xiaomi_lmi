@@ -3940,6 +3940,9 @@
         <ctl name="MultiMedia16 Mixer TX_CDC_DMA_TX_4" value="1" />
     </path>
 
+    <path name="hifi-playback speaker">
+    </path>
+
     <path name="hifi-playback display-port">
         <ctl name="DISPLAY_PORT Mixer MultiMedia2" value="1" />
     </path>
