@@ -57,3 +57,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)
+
+# Input
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/kona-mtp-snd-card_Button_Jack.kl:system/usr/keylayout/kona-mtp-snd-card_Button_Jack.kl
