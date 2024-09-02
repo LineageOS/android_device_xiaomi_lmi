@@ -21,10 +21,20 @@ LEGACY_MIFARE_READER=1
 EOF
             ;;
         vendor/lib/hw/audio.primary.lmi.so)
+            ${PATCHELF} --set-soname "audio.primary.lmi.so" "${2}"
             sed -i "s|/vendor/lib/liba2dpoffload\.so|liba2dpoffload_lmi\.so\x00\x00\x00\x00\x00\x00\x00\x00" "${2}"
+            ;;
+        vendor/lib/liba2dpoffload_lmi.so)
+            ${PATCHELF} --set-soname "liba2dpoffload_lmi.so" "${2}"
             ;;
         vendor/lib64/camera/components/com.mi.node.watermark.so)
             "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
+            ;;
+        vendor/lib64/hw/fingerprint.goodix_fod.default.so)
+            ${PATCHELF} --set-soname "fingerprint.goodix_fod.default.so" "${2}"
+            ;;
+        vendor/lib64/hw/fingerprint.goodix_fod6.default.so)
+            ${PATCHELF} --set-soname "fingerprint.goodix_fod6.default.so" "${2}"
             ;;
         vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so)
             "${SIGSCAN}" -p "9A 0A 00 94" -P "1F 20 03 D5" -f "${2}"
