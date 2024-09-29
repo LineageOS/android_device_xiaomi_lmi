@@ -27,3 +27,8 @@ vendor.audio_hal.period_multiplier=2
 
 # Audio hardware
 ro.hardware.audio.primary=lmi
+
+# Fingerprint
+persist.vendor.fingerprint.sensor_location=540|1756|101
+persist.vendor.fingerprint.type=udfps_optical
+persist.vendor.fingerprint.udfps.control_illumination=true
